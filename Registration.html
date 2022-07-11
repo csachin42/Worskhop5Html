@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+</head>
+<body>
+    
+    <div class="Container main    ">       
+        <h1> <center> Registration Form </center> </h1>
+        <br>
+        <form>
+        <label class ="name"><b>FirstName</b></label>
+
+        <input type ="text" name="name"  pattern ="([A-Z z-a])" title="First letter Capital" placeholder="FirstName" required>
+        <br>
+        <br>
+        <label class ="Lastname"><b>LastName</b></label>
+        <input type ="text" name="Lastname"  pattern ="([A-Z z-a])" title="First letter Capital" placeholder="LastName"required>
+        <br><br>
+        <label class ="email"><b>Email</b></label>
+        <input type ="mail" placeholder="Email" name="email" required>
+        <br><br>
+        <label class =""><b>Mobile Number</b></label>
+        <input type ="Phone" name="Phone" placeholder="Mobile Number" required>
+        <br><br>
+        <label class ="pwd"><b>Password</b></label>
+        <input type ="password" name="pwd" id="pwd" placeholder="pwd"required>
+        <br><br>
+        <label class ="Pwd"><b>Confirm Password</b></label>
+        <input type ="password" name="pwd" id="pwd" placeholder="pwd" required>
+        <br><br>
+        <label class ="DOB"><b>Date of Birth</b></label>
+        <input type ="Date" name="DOB" id="DOB"placeholder="DOB" required>
+        <br><br>
+        <button type="submit" onclick="matchPassword()">Submit</button>
+       
+
+    </form>
+     
+        </div>
+</body>
